@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {getShowInf} from "../../store/actions/actionSeries";
 import {connect} from "react-redux";
 

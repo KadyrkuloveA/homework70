@@ -21,7 +21,7 @@ const seriesReducer = (state = initialState, action) => {
                 show: {
                     name: action.show.name,
                     image : action.show.image.original,
-                    summary : action.show.summary.replace(/(\<(\/?[^>]+)>)/g, ''),
+                    summary : action.show.summary.replace(/(<(\/?[^>]+)>)/g, ''),
                     rating: action.show.rating.average,
                     runtime: action.show.runtime
                 }};
